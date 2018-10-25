@@ -19,7 +19,6 @@ While all content is searchable, the site is organized into the following sectio
 * :ref:`OpenVPN® <OpenVPN>`
 * :ref:`Security`
 * :ref:`UsefulTools`
-* :ref:`Advanced Config`
 * :ref:`Settings`
 * :ref:`Troubleshoot`
 * :ref:`REST APIs`
@@ -174,18 +173,6 @@ While all content is searchable, the site is organized into the following sectio
    HowTos/vpc_tracker
    HowTos/create_vpc
 
-.. _Advanced Config:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Advanced Config
-
-   HowTos/Service_Chaining_Ref_Design
-   HowTos/EnvironmentStamping
-   HowTos/Docker_Swarm
-   HowTos/ContainerAccess
-   HowTos/Migration_From_Marketplace
-
 .. _Settings:
 
 .. toctree::
@@ -275,6 +262,7 @@ While all content is searchable, the site is organized into the following sectio
    HowTos/meraki_to_transit
    HowTos/reserve_onprem
    HowTos/tf_aviatrix_howto
+   HowTos/connect_transit_network_clusters
 
 .. _Solutions:
 
