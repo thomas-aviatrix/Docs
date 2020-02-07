@@ -372,3 +372,10 @@ There are different options to find this information:
   * You can look for a `disconnect log <https://docs.aviatrix.com/HowTos/AviatrixLogging.html#id1>`_ if you have `external logging feature  <https://docs.aviatrix.com/HowTos/AviatrixLogging.html#aviatrix-log-format-for-log-management-systems>`_ turned on. 
   * You could also look at our `REST API <https://api.aviatrix.com/?version=latest#79695109-338c-4569-8f6c-824eb5ed5602>`_ to get this data.
 
+How to fix this SAML connection issue when I see error NET::ERR_CERT_DATE_INVALID from my Chrome Browser
+------------------------------------------------------
+
+When you connect VPN using SAML authentication, Aviatrix VPN Client will redirect you to Controller web UI after authentication. If you find a privacy error NET::ERR_CERT_DATE_INVALI, please check following items.
+
+ * Please check your Controller SSL certificate's expiration date and renew the certificate if needed. Check this link for `how to manage controller certificate. <https://docs.aviatrix.com/HowTos/controller_certificate.html#controller-certificate-management>`_
+ * If the certificate is valid, you can then check if your OS has correct clock setting. Please refer to `this link <https://support.google.com/chrome/answer/6098869#clock>`_ from google for how to fix this connection issue.
